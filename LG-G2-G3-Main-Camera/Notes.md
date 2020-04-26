@@ -19,7 +19,7 @@ Addresses:
 On boot, the phone reads exactly 0x900 bytes from the device at address 0x50.
 The data format is as follows:
 
-- 12 bytes of unknown data
+- 12 bytes of unknown data.
 - 4 17x13 (WxH) blocks of what appear to be circular gradients, with the
   higher values in the center and lower values towards the edges.
 - 10 bytes of unknown data.
